@@ -299,6 +299,7 @@ O operador pode ser ou '+' ou '-'.
 ---
 # Teste Aula 4 no Moodle do deisi
 
-![h:400 center](lablesson4/qrcode-teste-aula4.svg)
+## https://moodle.deisi.ulusofona.pt
 
-https://moodle.deisi.ulusofona.pt/mod/quiz/view.php?id=476
+![](lablesson4/aula4-teste-moodle.png)
+
