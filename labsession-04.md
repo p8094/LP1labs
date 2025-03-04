@@ -118,6 +118,44 @@ if (chover) {
 }
 ```
 ---
+
+## Control flow: if-else
+
+**A minha esposa me diz:** _"Vá ao mercado e traga um litro de leite. Se tiver ovos, traga seis."_
+
+>Eu voltei com o que?
+
+<hr>
+
+<div data-marpit-fragment>
+
+a) 1 litro leite e seis ovos
+b) 6 litros leite e seis ovos
+c) 6 ovos
+d) 6 litros leite
+</div>
+
+---
+
+## Control flow: if-else
+
+**A minha esposa me diz:** _"Vá ao mercado e traga um litro de leite. Se tiver ovos, traga seis."_
+
+```c
+int main(void) {
+    int leite = 0;
+    int ovos = 0;
+
+    leite++; // Pego 1l de leite
+
+    printf("Senhor merceeiro, há ovos?");
+    scanf(" %d", &ovos);
+    if (ovos) leite = 6;
+
+    return 0;
+}
+```
+---
 ## switch: Escolher entre multiplas opções
 
 
@@ -211,7 +249,7 @@ int main() {
 O âmbito das variáveis significa que o local onde declaras a tua variável faz diferença no sítio onde podes usá-la.  
 O melhor código garante sempre que todas as variáveis têm um âmbito limitado.
 
-- **Variáveis globais**: Variáveis declaradas fora de uma função (e também fora da _main)-. Estas variáveis são válidas em todo o ficheiro e só devem ser usadas se não houver uma alternativa melhor.
+- **Variáveis globais**: Variáveis declaradas fora de uma função (e também fora da _main_). Estas variáveis são válidas em todo o ficheiro e só devem ser usadas se não houver uma alternativa melhor.
 - **Variáveis locais**: Variáveis declaradas dentro de uma função são válidas apenas dentro dessa função e não podem ser chamadas externamente.
 
 ---
@@ -257,3 +295,10 @@ void funcao() {
 1. Escreve um código em C que implemente uma função para realizar uma operação. A função recebe 2 operandos (floats) e um operador (char) como argumentos e retorna um float com o resultado da operação.
 
 O operador pode ser ou '+' ou '-'.
+
+---
+# Teste Aula 4 no Moodle do deisi
+
+![h:400 center](lablesson4/qrcode-teste-aula4.svg)
+
+https://moodle.deisi.ulusofona.pt/mod/quiz/view.php?id=476
