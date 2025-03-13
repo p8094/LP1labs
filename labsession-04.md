@@ -303,3 +303,12 @@ O operador pode ser ou '+' ou '-'.
 
 ![](lablesson4/aula4-teste-moodle.png)
 
+---
+```mermaid
+graph TD;
+    A[Start] --> B{Decision};
+    B -- Yes --> C[Do something];
+    B -- No --> D[Do something else];
+    C --> E[End];
+    D --> E;
+```
