@@ -1,0 +1,16 @@
+[package]
+name = "problemst"
+version = "0.1.1"
+entrypoint = "main.typ"
+authors = ["Martijn Kuipers"]
+license = "MIT"
+repository = ""
+description = "Based on problemst from Willow Carretero Chavez <@carreter>" 
+keywords = ["template", "homework", "problem set", "pset", "assignment"]
+categories = ["report"]
+compiler = "0.1.1"
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
