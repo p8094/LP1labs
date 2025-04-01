@@ -267,12 +267,19 @@ Escolha uma opcao: 1
 .................................E..............................................
 ................................................................................
 
-<<<<<<< HEAD
-=======
+Menu:
+1 - Imprimir tabela "antes"
+2 - Imprimir tabela "depois"
+3 - Consultar as coordenadas de um barco
+4 - Listar barcos que se moveram
+5 - Sair
+Escolha uma opcao: 5
+A sair do programa...
+
 ```
 
 ```
->>>>>>> 9789ac4196ca8bbb61febefce080c16395587c9c
+
 Menu:
 1) Imprimir tabela 'antes'
 2) Imprimir tabela 'depois'
@@ -301,59 +308,63 @@ Escolha uma opcao: 2
 .................................E..............................................
 ................................................................................
 
-<<<<<<< HEAD
-=======
-```
-
-```
->>>>>>> 9789ac4196ca8bbb61febefce080c16395587c9c
 Menu:
-1) Imprimir tabela 'antes'
-2) Imprimir tabela 'depois'
-3) Consultar as coordenadas de um barco
-4) Listar barcos que se moveram
-5) Sair
-Escolha uma opcao: 3
-Digite a letra do barco (A, B, C, D, E): c
-Barco nao encontrado!
-
-Menu:
-1) Imprimir tabela 'antes'
-2) Imprimir tabela 'depois'
-3) Consultar as coordenadas de um barco
-4) Listar barcos que se moveram
-5) Sair
-Escolha uma opcao: 3
-Digite a letra do barco (A, B, C, D, E): C
-Linha 67, Coluna 11
-
-```
-
-```
-
-Menu:
-1) Imprimir tabela 'antes'
-2) Imprimir tabela 'depois'
-3) Consultar as coordenadas de um barco
-4) Listar barcos que se moveram
-5) Sair
-Escolha uma opcao: 4
-A: Moveu para esquerda
-B: Nao se moveu
-C: Nao se moveu
-D: Moveu para baixo
-D: Moveu para direita
-E: Nao se moveu
-
-Menu:
-1) Imprimir tabela 'antes'
-2) Imprimir tabela 'depois'
-3) Consultar as coordenadas de um barco
-4) Listar barcos que se moveram
-5) Sair
+1 - Imprimir tabela "antes"
+2 - Imprimir tabela "depois"
+3 - Consultar as coordenadas de um barco
+4 - Listar barcos que se moveram
+5 - Sair
 Escolha uma opcao: 5
-Saindo...
+A sair do programa...
 
-Process finished with exit code 0
+```
+
+```
+Menu:
+1 - Imprimir tabela "antes"
+2 - Imprimir tabela "depois"
+3 - Consultar as coordenadas de um barco
+4 - Listar barcos que se moveram
+5 - Sair
+Escolha uma opcao: 3
+Qual a tabela que quer consultar? Tabela antes - 1 Tabela depois - 2
+1
+Escolha o barco que quer encontrar: 
+B
+O barco B encontra-se na linha 9 e na coluna 56
+
+Menu:
+1 - Imprimir tabela "antes"
+2 - Imprimir tabela "depois"
+3 - Consultar as coordenadas de um barco
+4 - Listar barcos que se moveram
+5 - Sair
+Escolha uma opcao: 5
+A sair do programa...
+
+```
+
+```
+
+Menu:
+1 - Imprimir tabela "antes"
+2 - Imprimir tabela "depois"
+3 - Consultar as coordenadas de um barco
+4 - Listar barcos que se moveram
+5 - Sair
+Escolha uma opcao: 4
+Escolha qual o barco que quer listar o movimento: 
+A
+Movimento: O barco moveu-se para a esquerda.
+
+Menu:
+1 - Imprimir tabela "antes"
+2 - Imprimir tabela "depois"
+3 - Consultar as coordenadas de um barco
+4 - Listar barcos que se moveram
+5 - Sair
+Escolha uma opcao: 5
+A sair do programa...
+
 
 ```
