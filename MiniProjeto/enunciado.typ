@@ -5,7 +5,7 @@
   title: "Mini Projeto: Radar de Barcos",
   date: datetime.today(),
   authors: ("Pedro Arroz Serra", "Daniel Silveira", "Giosuè Muratore", "Martijn Kuipers"),
-  version: "1.3",
+  version: "1.4",
   deadline: "06/04/2025 @ 23:59hrs no deisi-moodle"
 )
 
@@ -51,9 +51,9 @@ O programa irá:
 2. Apresentar ao utilizador o seguinte *menu*:
 
 ```
-1 - Imprimir tabela "antes"
+1 - Imprimir tabela 'antes'
 
-2 - Imprimir tabela "depois"
+2 - Imprimir tabela 'depois'
 
 3 - Consultar as coordenadas de um barco
 
@@ -69,10 +69,10 @@ O programa irá:
 
 == Funcionalidades detalhadas
 
-=== 1) Imprimir tabela "antes"
+=== 1) Imprimir tabela 'antes'
 Função que imprime no ecrã a tabela da primeira leitura.
 
-=== 2) Imprimir tabela "depois"
+=== 2) Imprimir tabela 'depois'
 Função que imprime no ecrã a tabela da segunda leitura.
 
 === 3) Consultar as coordenadas de um barco
@@ -84,7 +84,7 @@ Função que imprime no ecrã a tabela da segunda leitura.
 - Comparar as duas tabelas.
 - Para cada barco, verificar se mudou de posição:
   - Se sim, indicar o movimento: *cima*, *baixo*, *esquerda* ou *direita* (movimento de uma célula).
-  - Caso o barco não se tenha movido, indicar "não se moveu".
+  - Caso o barco não se tenha movido, indicar 'não se moveu'.
 
 === 5) Sair
 Termina o programa.
@@ -268,8 +268,8 @@ Escolha uma opcao: 1
 ................................................................................
 
 Menu:
-1 - Imprimir tabela "antes"
-2 - Imprimir tabela "depois"
+1 - Imprimir tabela 'antes'
+2 - Imprimir tabela 'depois'
 3 - Consultar as coordenadas de um barco
 4 - Listar barcos que se moveram
 5 - Sair
@@ -309,8 +309,8 @@ Escolha uma opcao: 2
 ................................................................................
 
 Menu:
-1 - Imprimir tabela "antes"
-2 - Imprimir tabela "depois"
+1 - Imprimir tabela 'antes'
+2 - Imprimir tabela 'depois'
 3 - Consultar as coordenadas de um barco
 4 - Listar barcos que se moveram
 5 - Sair
@@ -321,8 +321,8 @@ A sair do programa...
 
 ```
 Menu:
-1 - Imprimir tabela "antes"
-2 - Imprimir tabela "depois"
+1 - Imprimir tabela 'antes'
+2 - Imprimir tabela 'depois'
 3 - Consultar as coordenadas de um barco
 4 - Listar barcos que se moveram
 5 - Sair
@@ -334,8 +334,8 @@ B
 O barco B encontra-se na linha 9 e na coluna 56
 
 Menu:
-1 - Imprimir tabela "antes"
-2 - Imprimir tabela "depois"
+1 - Imprimir tabela 'antes'
+2 - Imprimir tabela 'depois'
 3 - Consultar as coordenadas de um barco
 4 - Listar barcos que se moveram
 5 - Sair
@@ -347,8 +347,8 @@ A sair do programa...
 ```
 
 Menu:
-1 - Imprimir tabela "antes"
-2 - Imprimir tabela "depois"
+1 - Imprimir tabela 'antes'
+2 - Imprimir tabela 'depois'
 3 - Consultar as coordenadas de um barco
 4 - Listar barcos que se moveram
 5 - Sair
@@ -358,8 +358,8 @@ A
 Movimento: O barco moveu-se para a esquerda.
 
 Menu:
-1 - Imprimir tabela "antes"
-2 - Imprimir tabela "depois"
+1 - Imprimir tabela 'antes'
+2 - Imprimir tabela 'depois'
 3 - Consultar as coordenadas de um barco
 4 - Listar barcos que se moveram
 5 - Sair
