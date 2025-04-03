@@ -78,7 +78,7 @@ Função que imprime no ecrã a tabela da segunda leitura.
 === 3) Consultar as coordenadas de um barco
 - Perguntar qual tabela (1 ou 2) o utilizador deseja consultar.
 - Perguntar qual barco (A, B, C, D ou E) deseja localizar.
-- Imprimir as coordenadas (linha e coluna) onde o barco se encontra nessa tabela. *(a tabela começa na linha 0 e coluna 0)*
+- Imprimir as coordenadas (linha e coluna) onde o barco se encontra nessa tabela. *(a tabela começa na linha 1 e coluna 1)*
 
 === 4) Listar barcos que se moveram
 - Comparar as duas tabelas.
