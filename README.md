@@ -8,6 +8,6 @@
 0. [Lab 7 - Ponteiros](http://htmlpreview.github.io/?https://github.com/p8094/LP1labs/blob/main/lablesson7/labsession-07.html)
 
 ## Projetos:
-* [Mini Projeto](https://github.com/p8094/LP1labs/blob/main/MiniProjeto/enunciado.md)
+* [Mini Projeto](https://nbviewer.org/github/p8094/LP1labs/blob/main/MiniProjeto/enunciado.pdf)
 
  
