@@ -511,6 +511,7 @@ x = x + 1; // Incrementa x
 Use /** */ acima das funções para gerar documentação automática (no CLion):
 
 ```c
+/**
  * Soma dois inteiros.
  *
  * @param a Primeiro inteiro
