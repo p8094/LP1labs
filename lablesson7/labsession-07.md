@@ -425,6 +425,47 @@ if (ptr1 != NULL)
 </small>
 
 ---
+# 🎯 Formatação em C — Porquê é Importante?
+
+- ✅ Torna o código **mais legível e compreensível**
+- 🔧 Facilita a **manutenção** e o trabalho em grupo
+- 🧠 Ajuda a evitar erros (ex: blocos mal alinhados)
+- 📚 Torna o código mais fácil de **ensinar/aprender**
+- 🤖 Ferramentas como `clang-format` podem ajudar
+
+---
+
+# 📐 Regras Básicas de Formatação
+
+- 🧱 **Indentação consistente** (espaços ou tabulações — escolha um!)
+  ```c
+  if (x > 0) {
+      printf("Positivo\n");
+  }
+  ```
+
+* linhas curtas (< 80 ou 100 colunas)
+
+* 🎯 Use espaços entre operadores:
+
+  ```c
+  x = a + b;
+  ```
+---
+# Outras Boas Práticas
+* 📌 Separe blocos de código com linhas em branco
+
+* 🔠 Nomeie variáveis com sentido: media, contador, total
+
+* 🔧 Agrupe variáveis por tipo e propósito
+
+* 💬 Comente blocos complexos, não cada linha
+
+* ✅ Use nomes de funções com verbos: calculaSoma(), imprimeMenu()
+
+* 📁 Organização em ficheiros .h (declarações) e .c (implementações)
+
+---
 
 # Comentando Código em C  
 ### Como, Quando e Por Quê
