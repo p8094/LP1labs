@@ -679,13 +679,14 @@ i++; <span class="hljs-comment">// Desnecessário se for óbvio</span>
 <header>Linguagens de Programação 1 | LEI, LEIRT, LIG</header>
 <h1 id="coment%C3%A1rio-de-fun%C3%A7%C3%A3o-estilo-javadoc">Comentário de Função (Estilo JavaDoc)</h1>
 <p>Use /** */ acima das funções para gerar documentação automática (no CLion):</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"> * Soma dois inteiros.
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-comment">/**
+ * Soma dois inteiros.
  *
  * @param a Primeiro inteiro
  * @param b Segundo inteiro
- * @<span class="hljs-keyword">return</span> Resultado da soma
- */
-<span class="hljs-type">int</span> soma(<span class="hljs-type">int</span> a, <span class="hljs-type">int</span> b) {
+ * @return Resultado da soma
+ */</span>
+<span class="hljs-type">int</span> <span class="hljs-title function_">soma</span><span class="hljs-params">(<span class="hljs-type">int</span> a, <span class="hljs-type">int</span> b)</span> {
     <span class="hljs-keyword">return</span> a + b;
 }
 </code></pre>
