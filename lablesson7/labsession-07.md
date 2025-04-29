@@ -29,8 +29,6 @@ img[alt~="center"] {
   display: block;
   margin: 0 auto;
 }
-ul { list-style-type: none; padding-left: 0;}
-
 </style>
 
 
@@ -427,31 +425,183 @@ if (ptr1 != NULL)
 </small>
 
 ---
-# Mini Projeto: Radar de Barcos
 
-O CLion compila o programa dentro da pasta **cmake-build-debug** e também executa a programa a partir desta pasta.
+# Comentando Código em C  
+### Como, Quando e Por Quê
 
-![h:200 center](file-location.png)
+*  Comentários ajudam na **manutenção**, **documentação** e **compreensão** do código.
 
-Então, para o programa poder encontrar os ficheiros __tabela_antes.txt__ e __tebela_depois.txt__ tem de colocar estes ficheiros nesta pasta.
-
----
-# Mini Projeto: Radar de Barcos - Dicas
-
-Cria funções auxiliares para modularizar o teu código.  
-Mantém o código bem organizado e legível.  
-
-Podes usar funções como:  
-→ `void imprimirTabela(char tabela[20][80]);`  
-→ `void consultarCoordenadas(char tabela[20][80]);`  
-→ `void listarMovimentos(...);`
+*  Boas práticas de comentário facilitam o trabalho em equipe e o uso de ferramentas como o CLion.
 
 ---
-# Mini Projeto: Radar de Barcos - Lembrete
+# Quando Comentar Código
 
-## Data limite: domingo, 6 de abril de 2025 às 23:59
+✅ Use comentários quando:
+
+* O propósito do código **não for óbvio**.
+* A lógica for **complexa ou não trivial**.
+* Para **explicar decisões** de design.
+
+🚫 Evite comentários redundantes:
+```c
+// Incrementa i
+i++; // Desnecessário se for óbvio
+```
+---
+
+# Tipos de Comentários
+## Comentário em linha:
+
+```c
+x = x + 1; // Incrementa x
+```
+
+## Comentário em bloco:
+```c
+/*
+ * Esse bloco faz a inicialização
+ * do sistema e configura o timer
+ */
+```
+---
+
+# Comentário de Função (Estilo JavaDoc)
+
+Use /** */ acima das funções para gerar documentação automática (no CLion):
+
+```c
+ * Soma dois inteiros.
+ *
+ * @param a Primeiro inteiro
+ * @param b Segundo inteiro
+ * @return Resultado da soma
+ */
+int soma(int a, int b) {
+    return a + b;
+}
+```
+
+--- 
+
+
+# CLion (dica)
+
+![h:500 center](clion-brief.png)
 
 ---
+
+# O que é o estilo JavaDoc?
+
+* Originalmente criado para **Java**.
+* Usa comentários `/** ... */` acima de funções, structs, etc.
+* Ferramentas como **CLion** e **Doxygen** reconhecem esse estilo.
+* Gera documentação automática em HTML, LaTeX, etc.
+
+---
+
+## Por que usar JavaDoc em C?
+
+✅ Benefícios:
+
+* Documentação clara para funções e estruturas.
+* Compatibilidade com IDEs como CLion.
+* Geração automática de manuais e referências do código.
+* Facilita onboarding de novos programadores.
+
+---
+
+## Exemplo de Documentação com JavaDoc
+
+```c
+/**
+ * @brief Calcula a potência de um número.
+ *
+ * @param base A base da potência.
+ * @param expoente O expoente.
+ * @return O valor de base elevado ao expoente.
+ */
+int potencia(int base, int expoente) {
+    int resultado = 1;
+    for (int i = 0; i < expoente; i++) {
+        resultado *= base;
+    }
+    return resultado;
+}
+```
+---
+
+# Marcadores Comuns (Tags)
+
+* `@param`: Descreve um parâmetro da função.
+* `@return`: Descreve o valor de retorno da função.
+* `@author`: Nome do autor do código.
+* `@version`: Versão do código.
+* `@see`: Referência a outra parte do código.
+* `@note`, `@warning`:  Para notas e avisos
+
+---
+
+# Example: Doxygen em C
+
+[doxygen_c.h](https://fnch.users.sourceforge.net/doxygen_c.html)
+
+
+[doxygen_c_preview](https://fnch.users.sourceforge.net/doxygen_c/html/doxygen__c_8h.html)
+
+--- 
+
+
+# Boas Práticas
+
+* Comente o "porquê", não apenas o "o quê".
+
+* Atualize os comentários ao alterar o código.
+
+* Mantenha o comentário claro, conciso e relevante.
+
+* A lingua das comentatios e deviam estar em linha com os do codigo (se o codigo tem variaveis/funções em Ingles, os comentarios tambem devem ser em ingles).
+
+---
+
+
+# Obrigatoriadade
+
+Podemos concordar num *minimo* de comentarios com o estilo JavaDoc para:
+- Todos os ficheiros:
+  - `@brief, @author, @version`
+  - `@author`: <nome> [student-id]
+
+- Todos os funções:
+  - `@brief`: Breve descrição da função
+  - `@param`: Descrição de cada parâmetro
+  - `@return`: Descrição do valor de retorno
+
+---
+
+# Obrigatoriadade 
+E colocamos comentarios "normais":
+* O propósito do código **não for óbvio**.
+* A lógica for **complexa ou não trivial**.
+* Para **explicar decisões** de design.
+
+---
+# Resumo
+
+* Use /** */ para documentar funções no estilo JavaDoc.
+
+* Comente para esclarecer, não para repetir o código.
+
+* Bons comentários ajudam hoje e no futuro do projeto.
+
+<br />
+<br />
+<br />
+
+💡 Talvez é o parte mais dificil do codigo. Muitas vezes, depois de escrever os comentarios percebemos o algoritmo melhor e o codigo pode ser melhorado.
+
+---
+
+
 # ❓ Q&A  
 
 💬 **Dúvidas?**  
