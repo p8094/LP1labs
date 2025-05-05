@@ -233,7 +233,7 @@ Um nó contém:
 - dados: um ou mais campos de dados – podem ser organizados como estrutura, objeto, etc.
 - um ponteiro que pode apontar para outro nó
 
-![alt text](image-2.png)
+![h:100 center](image-2.png)
 
 ---
 
@@ -253,7 +253,7 @@ Um nó contém:
 - Se uma lista contém atualmente 0 nós, é uma lista vazia
 - Neste caso, o cabeçalho da lista aponta para NULL
 
-![alt text](image-4.png)
+![h:200 center](image-4.png)
 
 ---
 
@@ -289,7 +289,7 @@ node_t *head = NULL;
 
 - Ponteiro de cabeça inicializado como NULL para indicar uma lista vazia
 
-![alt text](image-5.png)
+![h:175 center](image-5.png)
 
 ---
 
