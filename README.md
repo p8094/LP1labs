@@ -7,6 +7,8 @@
 
 0. [Lab 7 - Ponteiros](http://htmlpreview.github.io/?https://github.com/p8094/LP1labs/blob/main/lablesson7/labsession-07.html)
 
+0. [Lab 8 - Memória Dinâmica e Listas Ligadas](http://htmlpreview.github.io/?https://github.com/p8094/LP1labs/blob/main/lablesson8/labsession-08.html)
+
 ## Projetos:
 * [Mini Projeto](https://nbviewer.org/github/p8094/LP1labs/blob/main/MiniProjeto/enunciado.pdf)
 

@@ -601,7 +601,7 @@ int potencia(int base, int expoente) {
 
 * Mantenha o comentário claro, conciso e relevante.
 
-* A lingua das comentatios e deviam estar em linha com os do codigo (se o codigo tem variaveis/funções em Ingles, os comentarios tambem devem ser em ingles).
+* A lingua das comentarios e deviam estar em linha com os do codigo (se o codigo tem variaveis/funções em Ingles, os comentarios tambem devem ser em ingles).
 
 ---
 
@@ -611,7 +611,7 @@ int potencia(int base, int expoente) {
 Podemos concordar num *minimo* de comentarios com o estilo JavaDoc para:
 - Todos os ficheiros:
   - `@brief, @author, @version`
-  - `@author`: <nome> [student-id]
+  - `@author`: `<nome>` [student-id]
 
 - Todos os funções:
   - `@brief`: Breve descrição da função
