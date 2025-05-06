@@ -1604,10 +1604,10 @@ new_node-&gt;next = <span class="hljs-literal">NULL</span>;
 ;" data-marpit-pagination-total="33">
 <header>Linguagens de Programação 1 | LEI, LEIRT, LIG</header>
 <h1 id="inserir-um-n%C3%B3-entre-dois-n%C3%B3s">Inserir um nó entre dois nós</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-type">node_t</span> *node_ptr = <span class="hljs-built_in">malloc</span>(<span class="hljs-keyword">sizeof</span>(<span class="hljs-type">node_t</span>));
-node_ptr-&gt;data = <span class="hljs-number">15</span>;
-node_ptr-&gt;next = previous_node-&gt;next;
-previous_node-&gt;next = node_ptr;
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-type">node_t</span> *new_node = <span class="hljs-built_in">malloc</span>(<span class="hljs-keyword">sizeof</span>(<span class="hljs-type">node_t</span>));
+new_node-&gt;data = <span class="hljs-number">17</span>;
+new_node-&gt;next = previous_node-&gt;next;
+previous_node-&gt;next = new_node;
 </code></pre>
 <p><img src="image-9.png" alt="center" style="width:800px;" /></p>
 <footer><img src="../images/logo_lusofona.png" alt="logo" />  Pedro Arroz Serra | Daniel Silveira | Giosuè Muratore | Martijn Kuipers</footer>

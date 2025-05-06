@@ -450,10 +450,10 @@ int insert_at_end(node_t **head, int data) {
 # Inserir um nó entre dois nós
 
 ```c
-node_t *node_ptr = malloc(sizeof(node_t));
-node_ptr->data = 15;
-node_ptr->next = previous_node->next;
-previous_node->next = node_ptr;
+node_t *new_node = malloc(sizeof(node_t));
+new_node->data = 17;
+new_node->next = previous_node->next;
+previous_node->next = new_node;
 ```
 ![w:800 center](image-9.png)
 
