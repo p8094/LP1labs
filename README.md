@@ -9,6 +9,8 @@
 
 0. [Lab 8 - Memória Dinâmica e Listas Ligadas](http://htmlpreview.github.io/?https://github.com/p8094/LP1labs/blob/main/lablesson8/labsession-08.html)
 
+0. [Lab 9 - Ficheiros e Ordenação](http://htmlpreview.github.io/?https://github.com/p8094/LP1labs/blob/main/lablesson9/labsession-09.html)
+
 ## Projetos:
 * [Mini Projeto](https://nbviewer.org/github/p8094/LP1labs/blob/main/MiniProjeto/enunciado.pdf)
 
