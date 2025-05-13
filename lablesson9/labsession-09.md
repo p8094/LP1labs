@@ -408,6 +408,49 @@ void bubble_sort_by_population(list_elem_t **head, list_elem_t **tail) {
 ```
 ---
 
+# Douly Linked List - Inserir no meio
+
+Como inserir um novo elemento no meio da lista?
+
+1. Itera a lista até encontrar o elemento anterior ao que queremos inserir
+
+![center h:300](image-5.png)
+
+---
+
+# Douly Linked List - Inserir no meio
+
+2. Liga o _next_ pointer do novo elemento ao elemento seguinte
+
+3. Liga o _prev_ pointer do novo elemento ao elemento anterior
+
+![center h:300](image-7.png)
+
+#### Sempre ligar os ponteiros do novo elemento primeiro!
+
+
+---
+
+# Douly Linked List - Inserir no meio
+
+4. Liga o _prev_ pointer do elemento seguinte ao novo elemento
+
+5. Ligao _next_ pointer do elemento anterior ao novo elemento
+
+![center h:300](image-8.png)
+
+
+---
+
+# Douly Linked List - Inserir no meio
+
+## Et voilà
+
+![center h:200](image-9.png)
+
+---
+
+
 # InsertSort
 
 * Porque não ordenamos logo quando estamos a ler o ficheiro?
