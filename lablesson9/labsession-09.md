@@ -271,20 +271,31 @@ if (head == NULL) {    // Lista era vazia
 ```
 ---
 
-# Elemento da lista
+# Os dados
 
 ```c
-typedef struct list_elem_st list_elem_t;
-
-struct list_elem_st {
+// Strutura para os dados
+typedef struct data_st {
     char *id;
     char *country;
     long population;
     double density;
-    double area;
+    int area;
     double median_age;
     char *driving_side;
     char *continent;
+} data_t;
+```
+---
+# Elemento da lista
+
+```c
+// Structura para elementos da lista
+typedef struct list_elem_st list_elem_t;
+
+struct list_elem_st {
+    data_t *data;   // Ponteiro para os dados
+
     list_elem_t *next;
     list_elem_t *prev;
 };
@@ -316,7 +327,8 @@ Por exemplo, `find_country(&head, "Portugal");`
 * BECAUSE IT IS EXTREMELY INEFFICIENT
 
 ```
-But everybody should know it!
+But it is so easy to implement.
+Speed doesn't allways matter!
 ```
 
 ---
@@ -370,39 +382,35 @@ Como pode ver, esta matriz já está ordenada. De qualquer forma, o algoritmo Bu
 * Não há nada para trocar aqui, por isso, este passo é o último.
 
 ---
+# Excercisio 9.4 BubbleSort
+
+Adapta o programa do *Excercisio 9.3* para ler o ficheiro, correr BubbleSort para o density e imprimir os 10 paises mais denso.
+
+---
+
 
 # BubbleSort - Código
 
 ```c 
-void bubble_sort_by_population(list_elem_t **head, list_elem_t **tail) {
-    if (*head == NULL) return;
+void bubble_sort_by_density(list_elem_t **head, list_elem_t **tail) {
+    if (*head == *tail) return; // Lista com 1 ou 0 elementos
+
     int swapped;
+    list_elem_t *current_tail = *tail;
     do {
         swapped = 0;
         list_elem_t *it = *head;
-
-        while (it && it->next) {
-            if (it->population < it->next->population) { // Swap it and next nodes
-                list_elem_t *prev = it->prev;
-                list_elem_t *next_next = it->next->next;
-
-                if (prev) prev->next = it->next;    // Adjust links for nodes before and after
-                it->next->prev = prev;
-
-                it->next->next = it;
-                it->prev = it->next;
-
-                it->next = next_next;
-                if (next_next) next_next->prev = it;
-
-                if (*head == it) *head = it->next; // Update head and tail if necessary
-                if (*tail == it->next) *tail = it;
-
+        while (it != current_tail) {
+            if (it->data->density < it->next->data->density) {
+                // Trocar os elementos
+                data_t *temp = it->data;
+                it->data = it->next->data;
+                it->next->data = temp;
                 swapped = 1;
-            } else {
-                it = it->next;
             }
+            it = it->next;
         }
+        current_tail = current_tail->prev;  // Ultimo elemento já está ordenado
     } while (swapped);
 }
 ```
@@ -460,9 +468,9 @@ Como inserir um novo elemento no meio da lista?
 * Isto chama-se "InsertSort"
 
 ---
-# Excercisio 9.4
+# Excercisio 9.5 - InsertSort
 
-Adapta o programa do *Excercisio 9.3* para ler o ficheiro e inserir os dados usando insert sort
+Adapta o programa do *Excercisio 9.4* para ler o ficheiro e inserir os dados usando insert sort
 
 ---
 
