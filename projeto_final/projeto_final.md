@@ -120,6 +120,27 @@ BaseDados (frame 2)
 
 ---
 
+# Exemplo prático
+
+- Se a simulação dura 3 segundos:
+```
+BaseDados →  frame 0 → frame 1 → frame 2 
+                |         |         └──> Barco A → Barco B → Barco C
+                |         |
+                |         └──> Barco A → Barco B → Barco C
+                |
+                └──> Barco A → Barco B → Barco C
+```
+
+- Cada barco (A, B, C) aparece apenas nos frames em que está ativo
+- Com isso, podemos:
+  - Atualizar posições
+  - Voltar atrás no tempo
+  - Guardar o estado de cada segundo
+
+
+---
+
 # Resumo
 
 - `BaseDados` = lista ligada de **frames**
