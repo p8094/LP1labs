@@ -11,7 +11,9 @@
 
 0. [Lab 9 - Ficheiros e Ordenação](http://htmlpreview.github.io/?https://github.com/p8094/LP1labs/blob/main/lablesson9/labsession-09.html)
 
+0. [Lab 10 - Apoio ao Projeto Final](http://htmlpreview.github.io/?https://github.com/p8094/LP1labs/blob/main/projeto_final/projeto_final.html)
+
 ## Projetos:
 * [Mini Projeto](https://nbviewer.org/github/p8094/LP1labs/blob/main/MiniProjeto/enunciado.pdf)
 
- 
+* [Projeto](https://nbviewer.org/github/p8094/LP1labs/blob/main/Projeto/projeto_final_lp.pdf)
