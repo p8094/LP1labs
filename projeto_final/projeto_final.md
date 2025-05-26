@@ -94,12 +94,12 @@ style: |
 
 # Relação entre as Estruturas
 
-\`\`\`
+```
 BaseDados (frame 1)
  └── EntidadeIED A → EntidadeIED B → EntidadeIED C
 BaseDados (frame 2)
  └── EntidadeIED A → EntidadeIED C
-\`\`\`
+```
 
 - Cada `BaseDados` aponta para uma **lista ligada de entidades (barcos ativos)**
 - Cada `EntidadeIED` aponta para um barco (`NoVessel`)
@@ -117,22 +117,6 @@ BaseDados (frame 2)
 ✔️ Representa cada barco no **frame atual**  
 ✔️ Atualiza a **posição e estado** de cada barco  
 ✔️ Permite ver apenas os barcos **ativos e visíveis**
-
----
-
-# Exemplo prático
-
-- Se a simulação dura 3 segundos:
-\`\`\`
-BaseDados → frame 0 → frame 1 → frame 2
-            barcos A, B      barcos A       barcos C
-\`\`\`
-
-- Cada barco (A, B, C) aparece apenas nos frames em que está ativo
-- Com isso, podemos:
-  - Atualizar posições
-  - Voltar atrás no tempo
-  - Guardar o estado de cada segundo
 
 ---
 
