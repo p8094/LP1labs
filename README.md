@@ -19,4 +19,5 @@
 * [Projeto](https://nbviewer.org/github/p8094/LP1labs/blob/main/Projeto/projeto_final_lp.pdf)
 
 * [Projeto Recurso](https://nbviewer.org/github/p8094/LP1labs/blob/main/ProjetoRecurso/LP1-2025-Recurso.pdf)
+* [Projeto Recurso Link Alternativo](https://github.com/p8094/LP1labs/blob/main/ProjetoRecurso/LP1-2025-Recurso.pdf)
 
