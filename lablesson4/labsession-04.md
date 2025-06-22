@@ -54,6 +54,13 @@ style: |
     }
 ---
 
+# 📢 Linguagens de Programação 1 
+## 📚 Aula #1
+### 💬 Message of the Day 
+*“A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.”* 
+— Alan Turing 
+
+---
 
 
 # Linguagens de Programação 1
